@@ -86,7 +86,13 @@ const OrthographicCamera = () => {
     tick();
   };
 
-  return <canvas ref={init}>OrthographicCamera</canvas>;
-};
+  return (
+    <div>
+      <h2 className="text-2xl text-white bg-stone-800 px-4 py-2 mb-2">
+      Orthographic
+      </h2>
+      <canvas ref={init}></canvas>
+    </div>
+  );};
 
 export default OrthographicCamera;

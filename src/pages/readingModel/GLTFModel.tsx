@@ -23,7 +23,7 @@ const GLTFModel = () => {
 
     // Camera
     const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 10000);
-    camera.position.set(500, 500, 500);
+    camera.position.set(300, 300, 300);
 
     // Camera Controller
     const controls = new OrbitControls(camera, canvas);
@@ -32,7 +32,7 @@ const GLTFModel = () => {
 
     // Light
     // Direct light
-    const directionalLight = new THREE.DirectionalLight(0xffffff);
+    const directionalLight = new THREE.DirectionalLight(0xffffff,5);
     directionalLight.position.set(1, 1, 1);
     scene.add(directionalLight);
     // Ambient light

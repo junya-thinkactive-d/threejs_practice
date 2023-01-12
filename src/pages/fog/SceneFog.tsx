@@ -59,7 +59,14 @@ const SceneFog = () => {
 
     tick();
   };
-  return <canvas ref={init}></canvas>;
+  return (
+    <div>
+      <h2 className="text-2xl text-white bg-stone-800 px-4 py-2 mb-2">
+      Scene fog
+      </h2>
+      <canvas ref={init}></canvas>
+    </div>
+  );
 };
 
 export default SceneFog;
