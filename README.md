@@ -16,11 +16,11 @@ $ yarn install
 ```bash
 // dependenciesの場合
 // 追加
-yarn add {PACAGE_NAME}
+yarn add {PACKAGE_NAME}
 // 削除
-yarn remove {PACAGE_NAME}
+yarn remove {PACKAGE_NAME}
 // 更新
-yarn update {PACAGE_NAME}
+yarn update {PACKAGE_NAME}
 
-// devDependenciesの場合は{PACAGE_NAME}の前に --devを表記
+// devDependenciesの場合は{PACKAGE_NAME}の前に --devを表記
 ```
