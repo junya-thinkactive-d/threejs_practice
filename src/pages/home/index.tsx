@@ -8,7 +8,7 @@ const Home = () => {
           <div className="flex flex-col justify-center items-center pt-24">
             <h1 className="text-4xl">Let&apos;s Three.js Practice!</h1>
             <h2 className="text-8xl">
-              Thanks for{" "}
+              Thanks{" "}
               <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-sky-400">
                 ICS MEDIA
               </span>
